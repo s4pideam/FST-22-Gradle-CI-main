@@ -10,52 +10,5 @@ public class Main {
         String json = dataLoader.loadJsonFile("countries-aggregated_json.json");
         dataParser.parseJsonData(json);
     }
-
-    public static void duplicatedMainForSonar(){
-        DataLoader dataLoader = new DataLoader();
-        DataParser dataParser = new DataParser();
-        String json = dataLoader.loadJsonFile("countries-aggregated_json.json");
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-    }
-
-    public static void duplicatedMainForSonar2(){
-        DataLoader dataLoader = new DataLoader();
-        DataParser dataParser = new DataParser();
-        String json = dataLoader.loadJsonFile("countries-aggregated_json.json");
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-        dataParser.parseJsonData(json);
-    }
+    
 }
