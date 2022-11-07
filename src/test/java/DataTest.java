@@ -20,7 +20,7 @@ public class DataTest {
     @Test
     public void smartTest(){
         DataLoader dataLoader = new DataLoader();
-        String json = dataLoader.loadJsonFile("countries-aggregated_json.json");
+        String json = dataLoader.loadJsonFile("countries-aggregated_json2.json");
         assertFalse(json.isEmpty());
     }
 }
