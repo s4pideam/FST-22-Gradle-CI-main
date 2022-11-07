@@ -6,6 +6,14 @@ plugins {
     id "org.sonarqube" version "3.5.0.2730"
 }
 
+sonarqube {
+    properties {
+        property "sonar.projectKey", "s4pideam_FST-22-Gradle-CI-main"
+        property "sonar.organization", "s4pideam"
+        property "sonar.host.url", "https://sonarcloud.io"
+    }
+}
+
 repositories {
     mavenCentral() 
 }
@@ -32,12 +40,6 @@ sourceSets {
     }
 }
 
-// build.gradle
-sonarqube {
-    properties {
-        property "sonar.sourceEncoding", "UTF-8"
-    }
-}
 
 task ensureDirectory{
     ensureDirectory.ext.dpath = new File("$projectDir/src/main/download")
