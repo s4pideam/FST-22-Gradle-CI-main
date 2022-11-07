@@ -8,6 +8,8 @@ import org.junit.Test;
 import java.util.List;
 import java.util.Map;
 
+import static org.junit.Assert.assertFalse;
+
 public class DataTest {
 
     @Test
@@ -15,4 +17,10 @@ public class DataTest {
         Assert.assertEquals(true, true);
     }
 
+    @Test
+    public void smartTest(){
+        DataLoader dataLoader = new DataLoader();
+        String json = dataLoader.loadJsonFile("countries-aggregated_json.json");
+        assertFalse(json.isEmpty());
+    }
 }
