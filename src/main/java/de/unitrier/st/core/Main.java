@@ -10,5 +10,5 @@ public class Main {
         String json = dataLoader.loadJsonFile("countries-aggregated_json.json");
         dataParser.parseJsonData(json);
     }
-    
+
 }

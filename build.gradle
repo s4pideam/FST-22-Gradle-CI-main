@@ -1,3 +1,6 @@
+// Pierre-Jordan de Amezaga
+// 1133913
+
 plugins {
     id 'java'
     id 'application'
